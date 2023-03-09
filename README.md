@@ -3,7 +3,7 @@
 This project is a fullstack website for an imaginary bus travel agency, it has two sides one for the passengers to pursue or cancel there enrollment and an admin dashboard side to manipulate trips and buses, for more understanding you can explore the pics i droped down. 
 ### Pics
 Passenger Home Page:
-![code](Pics/Passenger/Passenger_home_page.jpg)
+![Passenger_home_page](https://user-images.githubusercontent.com/95913634/224028266-608c1ab0-6eb6-48cc-9767-d45d3ed7067d.jpg)
 
 Passenger Trips Page:
 ![code](Pics/Passenger/Passenger_trips_page.png)
