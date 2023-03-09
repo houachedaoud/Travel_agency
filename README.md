@@ -6,17 +6,17 @@ Passenger Home Page:
 ![Passenger_home_page](https://user-images.githubusercontent.com/95913634/224028266-608c1ab0-6eb6-48cc-9767-d45d3ed7067d.jpg)
 
 Passenger Trips Page:
-![code](Pics/Passenger/Passenger_trips_page.png)
+![Passenger_trips_page](https://user-images.githubusercontent.com/95913634/224028463-8a2bb169-d5cc-4710-a509-a31bfbfe289e.png)
 
 Passenger My Trips Page:
-![code](Pics/Passenger/Passenger_mytrips_page.png)
+![Passenger_mytrips_page](https://user-images.githubusercontent.com/95913634/224028527-d63bffcc-f903-42b3-a9f0-74bdde3cb273.png)
 
 Passenger About Us Page:
-![code](Pics/Passenger/Passenger_aboutus_page.png)
+![Passenger_aboutus_page](https://user-images.githubusercontent.com/95913634/224028586-9e878102-a351-45a5-a2b0-31999f2a987a.png)
 
 Database Tables:
 
-![code](Pics/Database/Tables.jpg)
+![Tables](https://user-images.githubusercontent.com/95913634/224028708-83d6fe43-fa70-4aa8-9cc3-b4c29e3425d1.jpg)
 
 ## Guide:
 Important resources for this project:
