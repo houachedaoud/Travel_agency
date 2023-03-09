@@ -1,0 +1,169 @@
+@charset "ISO-8859-1";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main sidebar styles */
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #3b3b3b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+
+  .Logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 20px 0;
+  }
+  
+  /* Remove default list styling */
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 ;
+  }
+
+  /* Style submenu */
+  .sidebar li ul {
+    display: none; /* Hide submenu by default */
+    padding-left: 10px; /* Add some left padding for submenu items */
+  }
+  
+  /* Add slide down effect for submenu */
+  .sidebar li ul {
+    transition: all 0.3s ease;
+  }
+  
+  /* Rotate arrow when submenu is opened */
+  .sidebar li ul.opened {
+    display: block;
+  }
+  
+  .sidebar .sub-menu-opener .arrow {
+    transform: rotate(90deg);
+    transition: all 0.3s ease;
+  }
+  
+  .MainButton {
+    width: 100%;
+    height: 60px;
+    font-size: 23px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    transition: all 0.5s;
+    z-index: 1;
+   }
+   
+   .MainButton::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background-color: white;
+    z-index: -1;
+    transition: all 0.5s;
+   }
+   
+   .MainButton:hover::before {
+    width: 100%;
+   }
+   
+   .MainButton:hover {
+    color: #3b3b3b;
+   }
+   
+   .MainButton:active:before {
+    background: #b9b9b9;
+   }
+
+
+   
+
+   .subButton{
+    --primary-color: #919191;
+    --secondary-color: #fff;
+    --hover-color: #111;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 1em 1.8em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: bold;
+    margin: 10px 0 10px 50px ;
+  }
+  
+  .subButton .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .subButton .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+  }
+  
+  .subButton .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+  }
+  
+  .subButton:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .subButton:hover .arrow {
+    background: var(--secondary-color);
+  }
+  
+  .subButton:hover .arrow:before {
+    right: 0;
+  }
+
+  .main{
+  	background-color: #3b3d4b;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 250px;
+  }

@@ -1,0 +1,123 @@
+@charset "ISO-8859-1";
+
+.all{
+	margin-bottom: 50px;
+}
+
+.tripsheader{
+    margin: 130px 0 50px 0;
+    text-align: center;
+}
+
+.containert {
+  display: flex;
+  max-width: 1500px;
+  width: fit-content;
+  margin: auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.cardt {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+}
+.cardt .card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.cardt .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 250px;
+}
+
+.tag {
+  background: #cccccc;
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.tag-teal {
+  background-color: #47bcd4;
+}
+.tag-purple {
+  background-color: #5e76bf;
+}
+.tag-pink {
+  background-color: #cd5b9f;
+}
+
+.sth{
+    margin: 8px 0 ;
+    text-align: center;
+}
+
+.card-body .infos{
+    margin-bottom: 8px;
+}
+
+.card-body .infos h6{
+  font-size: 13px;
+  margin: 10px 0 10px 0 ;
+}
+
+
+
+.user {
+  display: flex;
+  margin-top: auto;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.user-info h5 {
+  margin: 0;
+}
+.user-info small {
+  color: #545d7a;
+}
+
+.enrollButton {
+    background-color: white;
+  color: black;
+  border-radius: 10em;
+  font-size: 15px;
+  font-weight: 600;
+  width: 80px;
+  height: 35px;
+  margin-bottom: 8px;
+  text-align: conter;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid black;
+  box-shadow: 0 0 0 0 black;
+  margin-left: 150px;
+}
+
+.enrollButton:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+};
+
+.enrollButton:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+};
+

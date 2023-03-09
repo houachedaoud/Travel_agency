@@ -1,0 +1,69 @@
+@charset "ISO-8859-1";
+
+.profile {
+    margin:auto;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    margin-top: 44px;
+    box-shadow: 0px 0px 5px 1px grey;
+    object-fit: cover;
+}
+
+.name {
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.id {
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.main {
+    margin-top: 50px;
+    font-size: 28px;
+    padding: 0 10px;
+}
+
+.cardy{
+    margin: auto;
+    width: 60%;
+    
+}
+
+.main h2 {
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main .cardy {
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 1px 1px 8px 0 grey;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px 0 20px 50px;
+}
+
+.main .cardy table {
+    border: none;
+    font-size: 16px;
+    font-weight: 5;
+    height: 270px;
+    width: 80%;
+}
